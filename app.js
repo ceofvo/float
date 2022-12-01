@@ -5,6 +5,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var db = require('./db');
+const runScripts = require('./scripts');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -17,14 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-(async () => {
-  try {
-    await db.authenticate();
-    console.log('Connection has been established successfully.');
-  } catch (error) {
-    console.error('Unable to connect to the database:', error);
-  }
-})()
+(async () => await runScripts())()
 
 app.use('/', indexRouter);
 app.use('/account', usersRouter);

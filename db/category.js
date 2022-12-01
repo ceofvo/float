@@ -1,29 +1,22 @@
 var db = require('../db');
 const { DataTypes } = require('sequelize');
 
-const User = db.define('Users', {
+const Category = db.define('Categories', {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true
   },
-  firstName: {
+  image: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  lastName: {
+  amount: {
     type: DataTypes.STRING,
-    allowNull: false
-  },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false
-  },
-  password: {
-    type: DataTypes.STRING,
+    default: 0,
     allowNull: false
   }
 });
 
-(async () => await User.sync())();
-module.exports = User;
+(async () => await Category.sync())();
+module.exports = Category;
