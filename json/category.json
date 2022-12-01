@@ -2,50 +2,50 @@
     {
         "id": "1",
         "name": "Personal Care",
-        "image": "",
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/selfcare.jpeg",
         "bugetedAmount": 100
     },
     {
         "id": "2",
         "name": "General",
-        "image": "",
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/general.jpeg",
         "bugetedAmount": 750
     },
     {
         "id": "3",
         "name": "Bills",
-        "image": "",
-        "bugetedAmount": 50
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/bills.jpeg",
+        "bugetedAmount": 150
     },
     {
         "id": "4",
         "name": "Transport",
-        "image": "",
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/transport.jpeg",
         "bugetedAmount": 100
     },
     {
         "id": "5",
         "name": "Groceries",
-        "image": "",
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/grocery.jpeg",
         "bugetedAmount": 350
     },
     {
         "id": "6",
         "name": "Experiences",
-        "image": "",
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/experience.jpeg",
         "bugetedAmount": 100
     },
     {
         "id": "7",
         "name": "Shopping",
-        "image": "",
-        "bugetedAmount": 0
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/shopping.jpeg",
+        "bugetedAmount": 120
     },
     {
         "id": "8",
         "name": "Household",
-        "image": "",
-        "bugetedAmount": 0
+        "image": "https://floatstorage.blob.core.windows.net/newcontainer/household.jpeg",
+        "bugetedAmount": 80
     }
     
 ]
