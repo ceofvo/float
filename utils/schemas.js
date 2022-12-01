@@ -1,6 +1,6 @@
-import Joi from "joi";
+var Joi = require("joi");
 
-export const createAccountSchema = Joi.object().keys({
+exports.createAccountSchema = Joi.object().keys({
     name: Joi.string()
         .required()
         .error(new Error('name is required')),
@@ -14,7 +14,7 @@ export const createAccountSchema = Joi.object().keys({
         .error(new Error('password is required, minimum six characters')),
 });
 
-export const loginSchema = Joi.object().keys({
+exports.loginSchema = Joi.object().keys({
     email: Joi.string()
         .email()
         .required()
@@ -23,18 +23,4 @@ export const loginSchema = Joi.object().keys({
         .min(6)
         .required()
         .error(new Error('Invalid email or password')),
-});
-
-export const gifUploadSchema = Joi.object().keys({
-    tags: Joi.array()
-        .error(new Error('Tags must be an array'))
-});
-
-export const updateGifSchema = Joi.object().keys({
-    tags: Joi.array()
-        .required()
-        .error(new Error('Tags must be an array')),
-    name: Joi.string()
-        .required()
-        .error(new Error('name is required')),
 });

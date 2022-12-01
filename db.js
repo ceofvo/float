@@ -1,6 +1,9 @@
 const { Sequelize } = require('sequelize');
 
 module.exports = new Sequelize({
-    dialect: 'postgres',
-    url: process.env.SQL_URL
+    username: 'awxawsxg',
+    password: 'jJe1YoEZGgE-fgBdPB75GhooCcyma799',
+    database: 'awxawsxg',
+    host: 'tiny.db.elephantsql.com',
+    dialect: 'postgres'
 });

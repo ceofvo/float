@@ -27,7 +27,7 @@ app.use(cookieParser());
 })()
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/account', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -42,7 +42,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.json({err})
 });
 
 module.exports = app;

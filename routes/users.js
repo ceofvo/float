@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var account = require('../controllers/account');
+const login = require('../controllers/login');
 
-var {
-  validateUserAccountCreation
-} = require('../middlewares/account');
+const { validateUserAccountLogin } = require('../middlewares/account');
 
 /* GET users listing. */
-router.get('/create', validateUserAccountCreation, account.register);
+router.post('/login', validateUserAccountLogin, login);
 
 module.exports = router;
