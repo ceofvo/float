@@ -1,4 +1,7 @@
 var db = require('../db');
+var {
+    DataTypes
+} = require('')
 
 const User = db.define('User', {
     // Model attributes are defined here
