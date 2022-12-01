@@ -1,35 +1,51 @@
 [
     {
+        "id": "1",
         "name": "Personal Care",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 100
     },
     {
+        "id": "2",
         "name": "General",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 750
     },
     {
+        "id": "3",
         "name": "Bills",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 50
     },
     {
+        "id": "4",
         "name": "Transport",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 100
     },
     {
+        "id": "5",
         "name": "Groceries",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 350
     },
     {
+        "id": "6",
         "name": "Experiences",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 100
     },
     {
+        "id": "7",
         "name": "Shopping",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 0
     },
     {
+        "id": "8",
         "name": "Household",
-        "image": ""
+        "image": "",
+        "bugetedAmount": 0
     }
     
 ]

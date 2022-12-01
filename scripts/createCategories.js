@@ -1,8 +1,11 @@
 const data = require("../json/category.json");
 var Category = require('../db/category');
 
-exports.create = () => {
-    data.forEach((cat) => {
-        await Category.build(cat).save()
+exports.createCategories = () => {
+    data.forEach(async (cat) => {
+        const category = Category.build({
+            ...cat
+        })
+        await category.save()
     })
 }

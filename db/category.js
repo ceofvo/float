@@ -11,7 +11,7 @@ const Category = db.define('Categories', {
     type: DataTypes.STRING,
     allowNull: false
   },
-  amount: {
+  bugetedAmount: {
     type: DataTypes.STRING,
     default: 0,
     allowNull: false

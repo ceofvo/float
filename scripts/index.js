@@ -1,6 +1,7 @@
-const createCategories = require('./createCategories');
+const {createCategories} = require('./createCategories');
+const db = require('../db');
 
-exports.run = async () => {
+exports.runScripts = async () => {
     await createCategories()
 
     try {

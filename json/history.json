@@ -1,0 +1,46 @@
+{
+    "1": [
+        {
+            "productName": "",
+            "amount": 10,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 20,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 30,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 0,
+            "date": ""
+        }
+    ],
+    "2": [
+        {
+            "productName": "",
+            "amount": 0,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 0,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 0,
+            "date": ""
+        },
+        {
+            "productName": "",
+            "amount": 0,
+            "date": ""
+        }
+    ]
+}
